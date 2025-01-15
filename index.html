@@ -3,93 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chương Trình Học Tin Học Cơ Bản</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Chương Trình Học Tin Học Cơ Bản | Thạc sĩ Hoàng Quốc Tuấn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container my-5">
-        <h1 class="text-center mb-4">Chương Trình Học Tin Học Cơ Bản</h1>
-        <p class="text-center"><strong>Giảng viên:</strong> Thạc sĩ Hoàng Quốc Tuấn</p>
+        <!-- Header -->
+        <header class="text-center mb-5">
+            <h1 class="display-4 text-primary fw-bold">Chương Trình Học Tin Học Cơ Bản</h1>
+            <p class="lead text-muted">Học với Thạc sĩ Hoàng Quốc Tuấn</p>
+            <hr>
+        </header>
 
-        <section class="my-4">
-            <h2>Mục tiêu khóa học</h2>
-            <ul>
-                <li>Nắm vững kiến thức cơ bản về tin học văn phòng.</li>
-                <li>Sử dụng thành thạo Microsoft Word, PowerPoint, và Excel trong công việc và học tập.</li>
+        <!-- Mục tiêu khóa học -->
+        <section class="mb-5">
+            <h2 class="text-secondary">Mục tiêu khóa học</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Nắm vững kiến thức cơ bản về tin học văn phòng.</li>
+                <li class="list-group-item">Sử dụng thành thạo Microsoft Word, PowerPoint, và Excel trong công việc và học tập.</li>
             </ul>
         </section>
 
-        <hr>
+        <!-- Nội dung khóa học -->
+        <section class="mb-5">
+            <h2 class="text-secondary">Nội dung khóa học</h2>
+            <div class="accordion" id="courseContent">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#wordSection">
+                            Phần 1: Microsoft Word
+                        </button>
+                    </h2>
+                    <div id="wordSection" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p><strong>Mục tiêu:</strong></p>
+                            <ul>
+                                <li>Hiểu giao diện và các chức năng cơ bản của Microsoft Word.</li>
+                                <li>Soạn thảo, chỉnh sửa và định dạng văn bản chuyên nghiệp.</li>
+                            </ul>
+                            <p><strong>Nội dung chi tiết:</strong></p>
+                            <ol>
+                                <li>Tổng quan về Microsoft Word</li>
+                                <li>Soạn thảo văn bản cơ bản</li>
+                                <li>Định dạng văn bản</li>
+                                <li>Công cụ nâng cao</li>
+                                <li>Thực hành</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
 
-        <section class="my-4">
-            <h2>Nội dung khóa học</h2>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pptSection">
+                            Phần 2: Microsoft PowerPoint
+                        </button>
+                    </h2>
+                    <div id="pptSection" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p><strong>Mục tiêu:</strong></p>
+                            <ul>
+                                <li>Thiết kế bài thuyết trình sinh động và chuyên nghiệp.</li>
+                                <li>Sử dụng các hiệu ứng và bố cục phù hợp với nội dung.</li>
+                            </ul>
+                            <p><strong>Nội dung chi tiết:</strong></p>
+                            <ol>
+                                <li>Tổng quan về Microsoft PowerPoint</li>
+                                <li>Tạo bài thuyết trình cơ bản</li>
+                                <li>Hiệu ứng và trình chiếu</li>
+                                <li>Công cụ nâng cao</li>
+                                <li>Thực hành</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="mb-3">
-                <h3>Phần 1: Microsoft Word</h3>
-                <p><strong>Mục tiêu:</strong></p>
-                <ul>
-                    <li>Hiểu giao diện và các chức năng cơ bản của Microsoft Word.</li>
-                    <li>Soạn thảo, chỉnh sửa và định dạng văn bản chuyên nghiệp.</li>
-                </ul>
-                <p><strong>Nội dung chi tiết:</strong></p>
-                <ol>
-                    <li>Tổng quan về Microsoft Word</li>
-                    <li>Soạn thảo văn bản cơ bản</li>
-                    <li>Định dạng văn bản</li>
-                    <li>Công cụ nâng cao</li>
-                    <li>Thực hành</li>
-                </ol>
-            </div>
-
-            <div class="mb-3">
-                <h3>Phần 2: Microsoft PowerPoint</h3>
-                <p><strong>Mục tiêu:</strong></p>
-                <ul>
-                    <li>Thiết kế bài thuyết trình sinh động và chuyên nghiệp.</li>
-                    <li>Sử dụng các hiệu ứng và bố cục phù hợp với nội dung.</li>
-                </ul>
-                <p><strong>Nội dung chi tiết:</strong></p>
-                <ol>
-                    <li>Tổng quan về Microsoft PowerPoint</li>
-                    <li>Tạo bài thuyết trình cơ bản</li>
-                    <li>Hiệu ứng và trình chiếu</li>
-                    <li>Công cụ nâng cao</li>
-                    <li>Thực hành</li>
-                </ol>
-            </div>
-
-            <div class="mb-3">
-                <h3>Phần 3: Microsoft Excel</h3>
-                <p><strong>Mục tiêu:</strong></p>
-                <ul>
-                    <li>Sử dụng Excel để quản lý dữ liệu và thực hiện các phép tính cơ bản.</li>
-                    <li>Tạo bảng biểu và biểu đồ minh họa dữ liệu.</li>
-                </ul>
-                <p><strong>Nội dung chi tiết:</strong></p>
-                <ol>
-                    <li>Tổng quan về Microsoft Excel</li>
-                    <li>Quản lý dữ liệu</li>
-                    <li>Các hàm cơ bản</li>
-                    <li>Phân tích dữ liệu</li>
-                    <li>Công cụ nâng cao</li>
-                    <li>Thực hành</li>
-                </ol>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#excelSection">
+                            Phần 3: Microsoft Excel
+                        </button>
+                    </h2>
+                    <div id="excelSection" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p><strong>Mục tiêu:</strong></p>
+                            <ul>
+                                <li>Sử dụng Excel để quản lý dữ liệu và thực hiện các phép tính cơ bản.</li>
+                                <li>Tạo bảng biểu và biểu đồ minh họa dữ liệu.</li>
+                            </ul>
+                            <p><strong>Nội dung chi tiết:</strong></p>
+                            <ol>
+                                <li>Tổng quan về Microsoft Excel</li>
+                                <li>Quản lý dữ liệu</li>
+                                <li>Các hàm cơ bản</li>
+                                <li>Phân tích dữ liệu</li>
+                                <li>Công cụ nâng cao</li>
+                                <li>Thực hành</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <hr>
-
-        <section class="my-4">
-            <h2>Phương pháp giảng dạy</h2>
-            <ul>
-                <li>Học qua ví dụ thực tế và thực hành ngay tại lớp.</li>
-                <li>Giảng viên hướng dẫn chi tiết và giải đáp thắc mắc kịp thời.</li>
-                <li>Bài tập ứng dụng cuối mỗi phần học.</li>
+        <!-- Phương pháp giảng dạy -->
+        <section class="mb-5">
+            <h2 class="text-secondary">Phương pháp giảng dạy</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Học qua ví dụ thực tế và thực hành ngay tại lớp.</li>
+                <li class="list-group-item">Giảng viên hướng dẫn chi tiết và giải đáp thắc mắc kịp thời.</li>
+                <li class="list-group-item">Bài tập ứng dụng cuối mỗi phần học.</li>
             </ul>
         </section>
 
-        <section class="my-4">
-            <h2>Thời lượng khóa học</h2>
+        <!-- Thời lượng khóa học -->
+        <section class="mb-5">
+            <h2 class="text-secondary">Thời lượng khóa học</h2>
             <p>Tổng thời lượng: <strong>12 buổi</strong> (4 buổi/tuần).</p>
             <ul>
                 <li>Phần 1: 4 buổi.</li>
@@ -98,26 +127,22 @@
             </ul>
         </section>
 
-        <hr>
-
-        <section class="my-4">
-            <h2>Đánh giá và chứng chỉ</h2>
-            <ul>
-                <li>Bài kiểm tra cuối khóa: Thực hành trên máy tính.</li>
-                <li>Học viên đạt yêu cầu sẽ nhận chứng chỉ hoàn thành khóa học từ Thạc sĩ Hoàng Quốc Tuấn.</li>
+        <!-- Đánh giá và chứng chỉ -->
+        <section class="mb-5">
+            <h2 class="text-secondary">Đánh giá và chứng chỉ</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Bài kiểm tra cuối khóa: Thực hành trên máy tính.</li>
+                <li class="list-group-item">Học viên đạt yêu cầu sẽ nhận chứng chỉ hoàn thành khóa học từ Thạc sĩ Hoàng Quốc Tuấn.</li>
             </ul>
         </section>
 
-        <footer class="my-5">
-            <h2>Thông tin</h2>
-            <ul>
-                <li><a href="http://hoangquoctuan.net" target="_blank">Hoàng Quốc Tuấn</a></li>
-                <li><a href="http://daksystem.net" target="_blank">Công ty thiết kế web tại Đắk Lắk</a></li>
-                <li><a href="http://dakdesign.net" target="_blank">Thiết kế website tại Đắk Lắk</a></li>
-            </ul>
+        <!-- Footer -->
+        <footer class="text-center text-muted mt-5">
+            <p>Liên hệ: <a href="http://hoangquoctuan.net" target="_blank">Hoàng Quốc Tuấn</a> | <a href="http://daksystem.net" target="_blank">Daksystem</a> | <a href="http://dakdesign.net" target="_blank">Dakdesign</a></p>
         </footer>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
