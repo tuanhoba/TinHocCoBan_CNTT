@@ -5,6 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chương Trình Học Tin Học Cơ Bản | Thạc sĩ Hoàng Quốc Tuấn</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .section-header {
+            background-color: #f1f1f1; /* Màu xám nhẹ để nổi bật */
+            color: #000;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .content-box {
+            background-color: #f9f9f9; /* Màu xám nhạt cho các khung nội dung */
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .content-box ul {
+            padding-left: 20px;
+        }
+        .contact-info {
+            background-color: #f1f1f1; /* Màu xám nhẹ để nổi bật phần thông tin liên hệ */
+            color: #000;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .contact-info a {
+            color: #333;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .text-primary {
+            color: #000000 !important;
+        }
+        .text-secondary {
+            color: #666 !important;
+        }
+
+        /* Nút tải file PDF */
+        .download-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 15px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <div class="container my-5">
@@ -157,7 +222,15 @@
 
     </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Nút tải về file PDF -->
+<a href="Chuong_Trinh_Hoc_Tin_Hoc_Nang_Cao.pdf" download="Chuong_Trinh_Hoc_Tin_Hoc_Co_Ban.pdf">
+    <button class="download-btn">Tải về PDF</button>
+</a>
+
+<!-- Link to Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
